@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Natalya Zyryanova](https://up.htmlacademy.ru/univer-html1/2/user/2574891).
-* Наставник: `Неизвестно`.
+* Наставник: `Артём Хрушков https://htmlacademy.ru/profile/id98923`.
 
 ---
 
