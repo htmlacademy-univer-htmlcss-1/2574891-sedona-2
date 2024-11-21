@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -38,17 +39,19 @@
             </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">Вход</a>
+            <a class="navigation-link button small-button" href="#">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <h1 class="visually-hidden">
-        Седона
-      </h1>
-      <img class="welcome" src="images/welcome.svg" alt="logo" width="458" height="352">
+    <main class="main-index">
+      <section class="welcome-block">
+        <h1 class="visually-hidden">
+                Седона
+              </h1>
+              <img class="welcome" src="images/welcome.svg" alt="logo" width="458" height="352">
+      </section>
       <section class="slogan">
         <h2 class="slogan-title">Седона — небольшой городок в Аризоне,
           заслуживающий большего!</h2>
@@ -116,18 +119,18 @@
           </li>
         </ul>
       </section>
-      <section class="slogan search-hotel">
+      <section class="search-hotel">
         <h2 class="slogan-title">Заинтересовались?</h2>
         <p class="slogan-description">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <a class="button button-all" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
       </section>
-      <section class="slogan subscribe">
-        <h2 class="slogan-title">Заинтересовались?</h2>
-        <p class="slogan-description">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      <section class="subscribe">
+        <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
+        <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
           <label  class="visually-hidden form-label" for="subscribe-email">Почта</label>
           <input class="field" type="email" id="subscribe-email" name="subscribe-email" placeholder="Ваш e-mail" required>
-          <button class="button" type="submit">ПОДПИСАТЬСЯ</button>
+          <button class="button button-blue" type="submit">ПОДПИСАТЬСЯ</button>
         </form>
       </section>
     </main>
@@ -137,17 +140,17 @@
         <h2 class="visually-hidden">Контакты</h2>
         <ul class="footer-social-list">
           <li class="footer-social-item">
-            <a class="button vk" href="#">
+            <a class="social-icons vk" href="#">
               <span class="visually-hidden">ВК</span>
             </a>
           </li>
           <li class="footer-social-item">
-            <a class="button tg" href="#">
+            <a class="social-icons tg" href="#">
               <span class="visually-hidden">Телеграмм</span>
             </a>
           </li>
           <li class="footer-social-item">
-            <a class="button youtube" href="#">
+            <a class="social-icons youtube" href="#">
               <span class="visually-hidden">Ютуб</span>
             </a>
           </li>
